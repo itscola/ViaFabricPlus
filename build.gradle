@@ -85,6 +85,7 @@ dependencies {
 	libs "net.lenni0451:Reflect:${project.reflect_version}"
 
 	libs "com.github.allinkdev:BetacraftServerListParser:${project.betacraft_version}"
+	libs "io.netty:netty-transport-native-epoll:4.1.90.Final" // Quilt loader issue fix
 
 	modImplementation "com.terraformersmc:modmenu:${project.mod_menu_version}"
 }
